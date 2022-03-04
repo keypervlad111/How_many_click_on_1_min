@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(210, 147, 30);
+    font-family: 'Kaushan Script', cursive;
+}
+#how, #timer, #button, #reset, #start{
+    margin: 1px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 255, 242);
+}
+#how{
+    width: 300px;
+    height: 100px;
+}
+#button, #reset, #howIn, #start {
+    width: 150px;
+}
+#timer{
+    width: 300px;
+    text-align: left;
+}
+#start, #button {
+    display: inline-block;
+}
